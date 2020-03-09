@@ -1,0 +1,20 @@
+{
+    "name": "hello/world",
+    "description": "test",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "~2.0.5"
+    },
+    "authors": [
+        {
+            "name": "wjjjjj",
+            "email": "wjjjjj@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hello\\world\\" : "src/"
+        }
+    }
+}
