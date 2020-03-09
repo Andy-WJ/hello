@@ -8,4 +8,9 @@ class Hello
     {
         echo '嘿嘿';
     }
+
+    public function time()
+    {
+        echo date();
+    }
 }
